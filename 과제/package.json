@@ -1,0 +1,15 @@
+{
+  "name": "movie-search-wishlist",
+  "version": "1.0.0",
+  "description": "TMDB API를 활용한 영화 검색 및 찜 목록 웹 서비스",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "ejs": "^3.1.10",
+    "express": "^4.19.2"
+  }
+}
